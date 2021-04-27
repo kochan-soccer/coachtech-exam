@@ -1,17 +1,14 @@
-'use strict';
+'use-strict';
+{
+  const target = document.getElementById("menu");
+  target.addEventListener('click', () => {
+    target.classList.toggle('open');
+    const nav = document.getElementById("nav");
+    nav.classList.toggle('in');
+  });
+}
 
 {
-
-const menu = document.getElementsByClassName("menu");
-  for (let i = 0; i < menu.length; i++) {
-    menu[i].addEventListener("click", toggle);
-}
-function toggle() {
-  const content = this.nextElementSibling;
-  this.classList.toggle("is-active");
-  content.classList.toggle("is-open");
-}
-
-  
-  
+  function chechText() {
+  }
 }
